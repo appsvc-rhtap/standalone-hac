@@ -1,14 +1,15 @@
-resources: 
+resources:
 - clowder-system.yaml
-- hac-fe.yaml 
+- hac-fe.yaml
 - hac-boot.yaml
 - dev-sso-patch.yaml
+- tekton-results.yaml
 
 namespace: openshift-gitops
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 patchesStrategicMerge:
-  - repo-overlay.yaml  
+  - repo-overlay.yaml
 
 
 
