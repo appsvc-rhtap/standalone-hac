@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: openshift-default
   rules:
-    - host: rhtap.apps.rhtap-4.12-070315.dev.openshiftappsvc.org
+    - host: rhtap.apps.rhtapnew-4.12-080813.dev.openshiftappsvc.org
       http:
         paths:
           - backend:

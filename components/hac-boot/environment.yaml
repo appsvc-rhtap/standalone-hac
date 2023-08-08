@@ -4,6 +4,6 @@ metadata:
   name: env-boot
 spec: 
 # Use hack/update-sso.sh to compute this for dev-sso auth domain 
-  sso: "https://keycloak-dev-sso.apps.rhtap-4.12-070315.dev.openshiftappsvc.org/auth/" 
+  sso: "https://keycloak-dev-sso.apps.rhtapnew-4.12-080813.dev.openshiftappsvc.org/auth/" 
   ingressClass: openshift-default
-  hostname: rhtap.apps.rhtap-4.12-070315.dev.openshiftappsvc.org
+  hostname: rhtap.apps.rhtapnew-4.12-080813.dev.openshiftappsvc.org
